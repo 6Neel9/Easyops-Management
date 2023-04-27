@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3001/api";
+const BASE_URL = "https://easyops-apis-2xv0.onrender.com/api";
 
 function App() {
   const [users, setUsers] = useState([]);
